@@ -1,0 +1,50 @@
+[
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a17b362d6ead",
+      "name": "Seated Dip Machine",
+      "ratingsCount": 3725,
+      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+      "age": 1,
+      "time": 30
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a27b362d6ead",
+        "name": "Chest Press Machine",
+        "ratingsCount": 3725,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "age": 1,
+        "time": 30
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a37b362d6ead",
+        "name": "Bench Press",
+        "ratingsCount": 3725,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "age": 1,
+        "time": 30
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a47b362d6ead",
+        "name": "Adjustable Bench",
+        "ratingsCount": 3725,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "age": 1,
+        "time": 30
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a57b362d6ead",
+        "name": "Incline Bench Press",
+        "ratingsCount": 3725,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "age": 1,
+        "time": 30
+    },
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a67b362d6ead",
+        "name": "Decline Bench Press",
+        "ratingsCount": 3725,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "age": 1,
+        "time": 30
+    }
+]
