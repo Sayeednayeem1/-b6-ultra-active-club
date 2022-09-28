@@ -13,7 +13,7 @@ const Product = (props) => {
             <h5>Time required: {time}s</h5>
             </div>
             <button className='btn-add-list'>
-                <p>Add To List</p>
+                <p className='test'>Add To List</p>
             </button>
         </div>
     );

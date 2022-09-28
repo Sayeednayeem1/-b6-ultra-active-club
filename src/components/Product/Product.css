@@ -22,3 +22,6 @@
     position: absolute;
     bottom: 0;
 }
+.btn-add-list:hover{
+    background-color: tomato;
+}

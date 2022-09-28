@@ -25,7 +25,7 @@ const Products = () => {
                         ></Product>)
                     }
                 </div>
-                <div className='test2'>
+                <div className='exercise-details'>
                     <h4>This is a test</h4>
                 </div>
             </div>
