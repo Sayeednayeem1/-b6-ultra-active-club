@@ -28,3 +28,14 @@
     border-radius: 20px;
     padding: 5px;
 }
+.give-me-margin{
+    margin: 10px 20px;
+}
+.time-maintenance{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    margin: 0 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

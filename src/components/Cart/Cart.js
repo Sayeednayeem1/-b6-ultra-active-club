@@ -32,6 +32,17 @@ const Cart = () => {
                     <h5>50s</h5>
                 </div>
             </div>
+            <div>
+                <h4 className='give-me-margin'>Exercise Details</h4>
+                <div className='time-maintenance'>
+                    <h4>Exercise Time</h4>
+                    <p>200s</p>
+                </div>
+                <div className='time-maintenance'>
+                    <h4>Break Time</h4>
+                    <p>200s</p>
+                </div>
+            </div>
         </div>
     );
 };
