@@ -1,0 +1,30 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.about-self{
+    text-align: center;
+}
+.body-details{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.body-details span{
+    color: lightgrey;
+    margin-left: 5px;
+}
+.add-a-break{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightseagreen;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+.add-a-break h5{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
