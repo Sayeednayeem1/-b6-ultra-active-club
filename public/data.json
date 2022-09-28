@@ -2,49 +2,49 @@
     {
       "id": "124e13b9-2d54-4b2f-a74d-a17b362d6ead",
       "name": "Seated Dip Machine",
-      "ratingsCount": 3725,
-      "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-      "age": 1,
+      "quote": "I will persist until I succeed.",
+      "img": "https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8MXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "age": "20-25",
       "time": 30
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a27b362d6ead",
         "name": "Chest Press Machine",
-        "ratingsCount": 3725,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "age": 1,
+        "quote": "Be stronger than your excuses.",
+        "img": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "age": "20-30",
         "time": 30
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a37b362d6ead",
         "name": "Bench Press",
-        "ratingsCount": 3725,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "age": 1,
+        "quote": "Go the extra mile.",
+        "img": "https://images.unsplash.com/photo-1553531889-65d9c41c2609?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxzZWFyY2h8OHx8Z3ltfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "age": "18-25",
         "time": 30
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a47b362d6ead",
         "name": "Adjustable Bench",
-        "ratingsCount": 3725,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "age": 1,
+        "quote": "Today is your day.",
+        "img": "https://images.unsplash.com/photo-1540496905036-5937c10647cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "age": "20-30",
         "time": 30
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a57b362d6ead",
         "name": "Incline Bench Press",
-        "ratingsCount": 3725,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "age": 1,
+        "quote": "Push harder. Go longer",
+        "img": "https://images.unsplash.com/photo-1521805103424-d8f8430e8933?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "age": "18-30",
         "time": 30
     },
     {
         "id": "124e13b9-2d54-4b2f-a74d-a67b362d6ead",
         "name": "Decline Bench Press",
-        "ratingsCount": 3725,
-        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
-        "age": 1,
+        "quote": "Take care of your body.",
+        "img": "https://images.unsplash.com/photo-1596357395217-80de13130e92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzd8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "age": "20-25",
         "time": 30
     }
 ]

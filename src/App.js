@@ -1,10 +1,11 @@
 
 import './App.css';
+import Products from './components/Products/Products';
 
 function App() {
   return (
-    <div className="App">
-      <h1>this is a test</h1>
+    <div>
+      <Products></Products>
     </div>
   );
 }

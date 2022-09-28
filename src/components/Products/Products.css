@@ -1,0 +1,17 @@
+.products-container{
+    background-color: #f0f0f0;
+}
+.gym-section{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.gym-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 100px 50px;
+}
+
+.test2{
+    background-color: aquamarine;
+}
