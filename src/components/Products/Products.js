@@ -3,7 +3,7 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Products.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import {faDumbbell} from '@fortawesome/free-solid-svg-icons';
 const Products = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);

@@ -1,35 +1,53 @@
-import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faLocationDot} from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect, useState } from 'react';
 import './Cart.css';
 
 const Cart = ({cart}) => {
-    let [test, setTest] = useState(0);
+
+    // this is a test section
+    const getLocalItems = ()=>{
+        let list = localStorage.getItem('list');
+        if(list){
+            return JSON.parse(localStorage.getItem('list'))
+        }
+        else{
+            return 0;
+        }
+    }
+
+
+    let [test, setTest] = useState(getLocalItems);
+    useEffect(() =>{
+        localStorage.setItem('list', JSON.stringify(test))
+    }, [test]);
 
     const btnOne = ()=>{
         test = 10;
         setTest(test);
-        localStorage.setItem("btnOne", 10)
+        // localStorage.setItem("btnOne", 10)
     }
     const btnTwo = ()=>{
         test = 20;
         setTest(test);
-        localStorage.setItem("btnTwo", 20)
+        // localStorage.setItem("btnTwo", 20)
     }
     const btnThree = ()=>{
         test = 30
         setTest(test);
-        localStorage.setItem("btnThree", 30)
+        // localStorage.setItem("btnThree", 30)
     }
     const btnFour = ()=>{
         test = 40;
         setTest(test);
-        localStorage.setItem("btnFour", 40)
+        // localStorage.setItem("btnFour", 40)
     }
     const btnFive = ()=>{
         test = 50;
         setTest(test);
-        localStorage.setItem("btnFive", 50)
+        // localStorage.setItem("btnFive", 50)
     }
-    // toast me
+    // simple alert
     const toast = ()=>{
         return alert('This is a simple alert!');
     }
@@ -42,7 +60,10 @@ const Cart = ({cart}) => {
         <div className='cart'>
             <div className='about-self'>
                 <h4>Name: Sayeed Nayeem</h4>
-                <p>Sylhet, Bangladesh</p>
+                <div className='icon-location'>
+                    <FontAwesomeIcon className='icon-margin' icon={faLocationDot} />
+                    <p>Sylhet, Bangladesh</p>
+                </div>
             </div>
             <div  className='body-details'>
                 <div>

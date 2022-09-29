@@ -46,14 +46,3 @@
         gap: 10px;
     }
 }
-@media screen and (min-width: 577px) and(max-width: 992px) {
-    .gym-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .gym-container{
-        display: grid;
-        grid-template-columns: 2, 1fr;
-        gap: 10px;
-    }
-}
