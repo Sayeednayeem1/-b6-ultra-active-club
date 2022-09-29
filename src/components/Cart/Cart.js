@@ -4,25 +4,30 @@ import './Cart.css';
 const Cart = ({cart}) => {
     let [test, setTest] = useState(0);
 
-    const thisIsTest = ()=>{
+    const btnOne = ()=>{
         test = 10;
         setTest(test);
+        localStorage.setItem("btnOne", 10)
     }
-    const thisIsTest2 = ()=>{
+    const btnTwo = ()=>{
         test = 20;
         setTest(test);
+        localStorage.setItem("btnTwo", 20)
     }
-    const thisIsTest3 = ()=>{
+    const btnThree = ()=>{
         test = 30
         setTest(test);
+        localStorage.setItem("btnThree", 30)
     }
-    const thisIsTest4 = ()=>{
+    const btnFour = ()=>{
         test = 40;
         setTest(test);
+        localStorage.setItem("btnFour", 40)
     }
-    const thisIsTest5 = ()=>{
+    const btnFive = ()=>{
         test = 50;
         setTest(test);
+        localStorage.setItem("btnFive", 50)
     }
     // toast me
     const toast = ()=>{
@@ -56,11 +61,11 @@ const Cart = ({cart}) => {
             <div>
                 <h4 className='give-me-margin'>Add A Break</h4>
                 <div className='add-a-break'>
-                    <button onClick={thisIsTest}>10s</button>
-                    <button onClick={thisIsTest2}>20s</button>
-                    <button onClick={thisIsTest3}>30s</button>
-                    <button onClick={thisIsTest4}>40s</button>
-                    <button onClick={thisIsTest5}>50s</button>
+                    <button onClick={btnOne}>10s</button>
+                    <button onClick={btnTwo}>20s</button>
+                    <button onClick={btnThree}>30s</button>
+                    <button onClick={btnFour}>40s</button>
+                    <button onClick={btnFive}>50s</button>
                 </div>
             </div>
             <div>
