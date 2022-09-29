@@ -22,11 +22,16 @@
     background-color: #f0f0f0;
     margin: 0 20px;
     border-radius: 10px;
+    padding: 10px;
 }
-.add-a-break h5{
+.add-a-break button{
     background-color: white;
     border-radius: 20px;
+    border: none;
     padding: 5px;
+}
+.add-a-break button:hover{
+    background-color: lightgreen;
 }
 .give-me-margin{
     margin: 10px 20px;

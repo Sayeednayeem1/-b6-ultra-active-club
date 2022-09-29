@@ -2,32 +2,41 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Products.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faDumbbell } from '@fortawesome/free-solid-svg-icons';
 const Products = () => {
     const [products, setProducts] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() =>{
         fetch('data.json')
         .then(res => res.json())
         .then(data => setProducts(data))
     }, []);
+    const handleAddToCart= (product) =>{
+        console.log('this is a test');
+        const newCart = [...cart, product];
+        setCart(newCart);
+    };
     return (
         <div className='products-container'>
-            <div>
-            <p>add an icon</p>
-            <h1>ULTRA-ACTIVE-CLUB</h1>
+            <div className='dumbbell-icon-div'>
+            <FontAwesomeIcon className='dumbbell-icon' icon={faDumbbell} />
+            <h1>ABSOLUTE-FITNESS-CLUB</h1>
             </div>
-            <h4>Select Todays Exercise</h4>
+            <h2 className='today-exercise'>Select Todays Exercise</h2>
             <div className='gym-section'>
                 <div className='gym-container'>
                     {
                         products.map(product => <Product
                         product={product}
                         key={product.id}
+                        handleAddToCart={handleAddToCart}
                         ></Product>)
                     }
                 </div>
                 <div className='exercise-details'>
-                    <Cart></Cart>
+                    <Cart cart={cart}></Cart>
                 </div>
             </div>
         </div>

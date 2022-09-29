@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css';
 
-const Cart = () => {
+const Cart = ({cart}) => {
+    let time = 0;
+    for(const product of cart){
+        time = time + product.time;
+    }
     return (
         <div className='cart'>
             <div className='about-self'>
@@ -25,18 +29,18 @@ const Cart = () => {
             <div>
                 <h4 className='give-me-margin'>Add A Break</h4>
                 <div className='add-a-break'>
-                    <h5>10s</h5>
-                    <h5>20s</h5>
-                    <h5>30s</h5>
-                    <h5>40s</h5>
-                    <h5>50s</h5>
+                    <button>10s</button>
+                    <button>20s</button>
+                    <button>30s</button>
+                    <button>40s</button>
+                    <button>50s</button>
                 </div>
             </div>
             <div>
                 <h4 className='give-me-margin'>Exercise Details</h4>
                 <div className='time-maintenance'>
                     <h4>Exercise Time</h4>
-                    <p>200s</p>
+                    <p>{time}s</p>
                 </div>
                 <div className='time-maintenance'>
                     <h4>Break Time</h4>

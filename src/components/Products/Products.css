@@ -16,3 +16,18 @@
     background-color: white;
     border-radius: 10px;
 }
+.dumbbell-icon-div{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+
+}
+.dumbbell-icon{
+    font-size: 50px;
+    margin-right: 5px;
+}
+.today-exercise{
+    margin-left: 50px;
+    margin-bottom: -30px;
+    color: lightseagreen;
+}
