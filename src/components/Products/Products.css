@@ -25,9 +25,35 @@
 .dumbbell-icon{
     font-size: 50px;
     margin-right: 5px;
+    color: lightseagreen;
+}
+.dumbbell-icon-div h1{
+    color: lightseagreen;
 }
 .today-exercise{
     margin-left: 50px;
     margin-bottom: -30px;
     color: lightseagreen;
+}
+@media screen and (max-width: 576px) {
+    .gym-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .gym-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+}
+@media screen and (min-width: 577px) and(max-width: 992px) {
+    .gym-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .gym-container{
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        gap: 10px;
+    }
 }

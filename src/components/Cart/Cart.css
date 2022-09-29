@@ -30,9 +30,7 @@
     border: none;
     padding: 5px;
 }
-.add-a-break button:hover{
-    background-color: lightgreen;
-}
+
 .give-me-margin{
     margin: 10px 20px;
 }
@@ -57,4 +55,7 @@
 }
 .btn:hover{
     background-color: tomato;
+}
+.add-a-break button:hover{
+    background-color: lightgreen;
 }
